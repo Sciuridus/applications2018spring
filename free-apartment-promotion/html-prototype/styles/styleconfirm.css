@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	padding:0;
+}
+a{
+	margin: 0;
+	padding: 0;
+}
+.bg1 {
+	position: relative;
+	top: 0;
+	margin: auto;
+	width: 100vw;
+	max-width: 500px;
+	background-color: #fac752;
+	z-index: 0;
+}
+
+.confirmtop{
+	max-width: 100%;
+
+}
+
+
+.bodytext{
+/*	position: relative;*/
+	top: 0;
+	margin: auto;
+	width: 100vw;
+	max-width: 500px;
+	background-color: #fac752;
+	font-family: 'Lato', serif;
+	font-weight: 400;
+	font-size: 0.93em;
+	letter-spacing: 0.07rem;
+	line-height: 1.2;
+	margin-top: -5px;
+	margin-bottom: 0;
+	z-index: 2;
+}
+.congrats{
+	top: 0;
+	margin: auto;
+	width: 81vw;
+	margin-left: 9.5%;
+	max-width: 400px;
+	background-color: #fac752;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0rem;
+	line-height: 1.4;
+	margin-top: -5px;
+	margin-bottom: 0;
+	z-index: 2;
+}
+.realtext{
+	margin:auto;
+	width: 81vw;
+	max-width: 400px;
+	margin-left: 9.5%;
+
+}
+.realtext #realtext2{
+	font-size: 0.85em;
+	color: rgba(0,0,0,0.75);
+
+}
+.idk{
+	background-color: white;
+}
+.ghost{
+	top: 0;
+	margin: auto;
+	width: 81vw;
+	margin-left: 9.5%;
+	max-width: 400px;
+	background-color: #fac752;
+	color:#fac752;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0rem;
+	line-height: 7.5vh;
+	margin-top: -5px;
+	margin-bottom: 0;
+	z-index: 2;
+}
+.ghost1{
+		top: 0;
+	margin: auto;
+	width: 81vw;
+	margin-left: 9.5%;
+	max-width: 400px;
+	background-color: #fac752;
+	color:#fac752;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0rem;
+	line-height: 5vh;
+	margin-top: -5px;
+	margin-bottom: 0;
+	z-index: 2;
+}
+
+.textlink{
+	text-decoration: underline;
+	color: #e76650;
+}
+@media screen and (max-width: 300px ){
+		.ghost{
+		line-height: 5vh;
+		font-size: 5vw;
+	}
+			.ghost1{
+		line-height: 3vh;
+		font-size: 5vw;
+	}
+	.congrats{
+		font-size: 10vw;
+		max-width: 400px;
+	}
+}
+@media screen and (min-width: 500px ){
+	.congrats{
+		font-size: 2rem;
+	}
+	.ghost{
+		line-height: 8vh;
+	}
+	.realtext{
+		font-size:1em;
+		line-height: 1.45;
+	}
+	#realtext2{
+		font-size: 0.93em;
+		line-height: 1.29;
+	}
+	}
